@@ -1,0 +1,22 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["hello","hey","hi","good day", "greetings", "What's up?","How is it going?"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["got to go", "good day", "goodbye"],
+        "responses": ["Goodbye!", "See you soon"]
+    },
+    {
+        "tag": "stock",
+        "patterns": ["How are my stocks?", "How are the markets today?", "How is my money?"],
+        "responses": ["Bullish", "Bearish", "Stonks"]
+    },
+    {
+        "tag": "weather",
+        "patterns": ["How is the weather", "Is the sun shining?", "Will it rain today?"],
+        "responses": ["Sunny","Cloudy","Rainy"]
+    }
+]}
